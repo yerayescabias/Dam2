@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.seconactivity.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.seconactivity.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.seconactivity.app-mergeDebugResources-30:/layout/secondview.xml",
+        "source": "com.example.seconactivity.app-main-33:/layout/secondview.xml"
+    }
+]
