@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button
+id firstActivity
+id main
+id messageget
+id messagesend
+id second
+id send
+layout activity_main
+layout secondview
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.SeconActivity
+style Theme.SeconActivity
+xml backup_rules
+xml data_extraction_rules
