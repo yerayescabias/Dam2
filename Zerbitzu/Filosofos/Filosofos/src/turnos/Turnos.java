@@ -9,12 +9,11 @@ public class Turnos {
 
     public synchronized void FilosfosThread() {
         // Esperas a que termine de comer si no termina Bucle
-        while (!eatingStop /*nunca va a entrar en el bucle */) {
+        while (!eatingStop) { /*nunca va a entrar en el bucle */
             try {
                 // Espera 
                 wait();
-            } catch (Exception e) {
-            }
+            } catch (Exception e) {}
         }
 
         // Ha terminado de comer por lo que le toca al siguiente

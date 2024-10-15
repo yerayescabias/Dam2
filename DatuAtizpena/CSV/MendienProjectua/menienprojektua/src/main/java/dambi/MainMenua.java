@@ -103,7 +103,7 @@ public static void met2() {
                 String probintzia = datos[2];
 
                 
-                String lineaMonte = mendia + ";" + altura + ";" + probintzia;
+                String lineaMonte = mendia + ";" + altura+";"+ probintzia;
 
                 
                 if (!mendiProbintziaka.containsKey(probintzia)) {
