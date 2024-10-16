@@ -28,9 +28,15 @@ public class Mendiak {
         this.mendia = mendia;
     }
 
+   
     @Override
     public String toString() {
-        return mendia +";"+altuera+";"+probintzia;
+        // Usamos StringBuffer para construir el String final
+        StringBuffer sb = new StringBuffer();
+        sb.append(mendia).append(";");
+        sb.append(altuera).append(";");
+        sb.append(probintzia);
+        return sb.toString();
     }
     
     @XmlElement(name = "ALTUERA")
@@ -42,6 +48,8 @@ public class Mendiak {
         this.altuera = altuera;
     }
 
+    public Mendiak() {
+    }
     public Mendiak(String probintzia,String mendia,String altuera){
         this.altuera=altuera;
         this.probintzia=probintzia;

@@ -45,9 +45,10 @@ public class HiruMendiSortu {
     public static void mendiakxml(){
         ArrayList<Mendiak> infoPasar = new ArrayList<Mendiak>();
         Mendiak mendiadatuak;   
+        MendiakWrapper a = new MendiakWrapper();
 
         try {
-            JAXBContext jaxbContext = JAXBContext.newInstance(Mendiak.class);
+            JAXBContext jaxbContext = JAXBContext.newInstance(MendiakWrapper.class);
             Marshaller jMarshaller= jaxbContext.createMarshaller();
             jMarshaller.setProperty( Marshaller.JAXB_FORMATTED_OUTPUT, true );
             BufferedReader reader = new BufferedReader(new FileReader(csvFile));
@@ -59,8 +60,10 @@ public class HiruMendiSortu {
                 mendiadatuak = new Mendiak(probintzia, mendia, altura);
                 infoPasar.add(mendiadatuak);
             }
-            jMarshaller.marshal(infoPasar, new File("TUPUTAMADRE.xml"));
-            jMarshaller.marshal(infoPasar, System.out);
+            
+            a.setMendiak(infoPasar);
+            jMarshaller.marshal(a, new File("TUPUTAMADRE.xml"));
+            jMarshaller.marshal(a, System.out);
 
 
 
