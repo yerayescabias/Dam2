@@ -43,7 +43,8 @@ public class HiruMendiSortu {
     }
 
     public static void mendiakxml(){
-        ArrayList<String> infoPasar = new ArrayList<String>();     
+        ArrayList<Mendiak> infoPasar = new ArrayList<Mendiak>();
+        Mendiak mendiadatuak;   
 
         try {
             JAXBContext jaxbContext = JAXBContext.newInstance(Mendiak.class);
@@ -55,15 +56,17 @@ public class HiruMendiSortu {
                 String mendia = datos[0];
                 String altura = datos[1];
                 String probintzia = datos[2];
-                Mendiak mendiadatuak = new Mendiak(probintzia, mendia, altura);
-                jMarshaller.marshal(mendiadatuak, new File("TUPUTAMADRE.xml"));
-                jMarshaller.marshal(mendiadatuak, System.out);
-                infoPasar.add(mendiadatuak.toString());
+                mendiadatuak = new Mendiak(probintzia, mendia, altura);
+                infoPasar.add(mendiadatuak);
             }
+            jMarshaller.marshal(infoPasar, new File("TUPUTAMADRE.xml"));
+            jMarshaller.marshal(infoPasar, System.out);
+
 
 
         } catch (Exception e) {
-            System.out.println("maircon");
+            
+            System.out.println(e.getMessage());
         }
     }
 }
