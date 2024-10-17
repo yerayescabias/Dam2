@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase;
 @Database(entities = {Element.class}, version = 1, exportSchema = false)
 public abstract class ElementsDB extends RoomDatabase {
 
-    public abstract ElementsDAO getElements();
+    public abstract ElementsDAO getElementsDAO();
     private static volatile ElementsDB INSTANCE;//volatile->shared variable
 
     static ElementsDB obtainInstance(final Context context) {

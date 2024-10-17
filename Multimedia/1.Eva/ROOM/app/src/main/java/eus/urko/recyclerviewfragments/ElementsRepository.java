@@ -16,7 +16,7 @@ public class ElementsRepository  {
 
 
     ElementsRepository(Application application){
-        elementsDAO = ElementsDB.obtainInstance(application).getElements();
+        elementsDAO = ElementsDB.obtainInstance(application).getElementsDAO();
     }
 
 

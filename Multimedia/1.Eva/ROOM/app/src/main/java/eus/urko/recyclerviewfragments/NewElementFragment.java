@@ -37,7 +37,7 @@ public class NewElementFragment extends Fragment {
                 String name = binding.name.getText().toString();
                 String description = binding.description.getText().toString();
 
-                elementosViewModel.add(new Element(R.drawable.vuejs_original,name, description));
+                elementosViewModel.insert(new Element(R.drawable.vuejs_original,name, description));
 
                 navController.popBackStack();
             }
