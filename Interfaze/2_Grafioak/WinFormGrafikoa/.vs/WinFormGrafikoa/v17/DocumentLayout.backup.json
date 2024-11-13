@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\skabi\\OneDrive\\Documentos\\GitHub\\Dam2\\Interfaze\\2_Grafioak\\WinFormGrafikoa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B83D224-A275-4ACF-A8EE-8A596B0448B3}|WinFormGrafikoa\\WinFormGrafikoa.csproj|c:\\users\\skabi\\onedrive\\documentos\\github\\dam2\\interfaze\\2_grafioak\\winformgrafikoa\\winformgrafikoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B83D224-A275-4ACF-A8EE-8A596B0448B3}|WinFormGrafikoa\\WinFormGrafikoa.csproj|solutionrelative:winformgrafikoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B83D224-A275-4ACF-A8EE-8A596B0448B3}|WinFormGrafikoa\\WinFormGrafikoa.csproj|c:\\users\\skabi\\onedrive\\documentos\\github\\dam2\\interfaze\\2_grafioak\\winformgrafikoa\\winformgrafikoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B83D224-A275-4ACF-A8EE-8A596B0448B3}|WinFormGrafikoa\\WinFormGrafikoa.csproj|solutionrelative:winformgrafikoa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B83D224-A275-4ACF-A8EE-8A596B0448B3}|WinFormGrafikoa\\WinFormGrafikoa.csproj|c:\\users\\skabi\\onedrive\\documentos\\github\\dam2\\interfaze\\2_grafioak\\winformgrafikoa\\winformgrafikoa\\datua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B83D224-A275-4ACF-A8EE-8A596B0448B3}|WinFormGrafikoa\\WinFormGrafikoa.csproj|solutionrelative:winformgrafikoa\\datua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\skabi\\OneDrive\\Documentos\\GitHub\\Dam2\\Interfaze\\2_Grafioak\\WinFormGrafikoa\\WinFormGrafikoa\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormGrafikoa\\Form1.cs",
+              "ToolTip": "C:\\Users\\skabi\\OneDrive\\Documentos\\GitHub\\Dam2\\Interfaze\\2_Grafioak\\WinFormGrafikoa\\WinFormGrafikoa\\Form1.cs",
+              "RelativeToolTip": "WinFormGrafikoa\\Form1.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAApwCIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T19:52:11.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Datua.cs",
+              "DocumentMoniker": "C:\\Users\\skabi\\OneDrive\\Documentos\\GitHub\\Dam2\\Interfaze\\2_Grafioak\\WinFormGrafikoa\\WinFormGrafikoa\\Datua.cs",
+              "RelativeDocumentMoniker": "WinFormGrafikoa\\Datua.cs",
+              "ToolTip": "C:\\Users\\skabi\\OneDrive\\Documentos\\GitHub\\Dam2\\Interfaze\\2_Grafioak\\WinFormGrafikoa\\WinFormGrafikoa\\Datua.cs",
+              "RelativeToolTip": "WinFormGrafikoa\\Datua.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T19:51:38.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\skabi\\OneDrive\\Documentos\\GitHub\\Dam2\\Interfaze\\2_Grafioak\\WinFormGrafikoa\\WinFormGrafikoa\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormGrafikoa\\Form1.cs",
+              "ToolTip": "C:\\Users\\skabi\\OneDrive\\Documentos\\GitHub\\Dam2\\Interfaze\\2_Grafioak\\WinFormGrafikoa\\WinFormGrafikoa\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinFormGrafikoa\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T19:51:51.829Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

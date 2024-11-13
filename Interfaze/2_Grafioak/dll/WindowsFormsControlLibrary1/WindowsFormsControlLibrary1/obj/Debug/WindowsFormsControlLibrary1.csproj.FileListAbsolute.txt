@@ -1,0 +1,8 @@
+C:\Users\skabi\OneDrive\Documentos\GitHub\Dam2\Interfaze\2_Grafioak\dll\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\skabi\OneDrive\Documentos\GitHub\Dam2\Interfaze\2_Grafioak\dll\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\bin\Debug\WindowsFormsControlLibrary1.pdb
+C:\Users\skabi\OneDrive\Documentos\GitHub\Dam2\Interfaze\2_Grafioak\dll\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.AssemblyReference.cache
+C:\Users\skabi\OneDrive\Documentos\GitHub\Dam2\Interfaze\2_Grafioak\dll\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.Grafikoa.resources
+C:\Users\skabi\OneDrive\Documentos\GitHub\Dam2\Interfaze\2_Grafioak\dll\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.GenerateResource.cache
+C:\Users\skabi\OneDrive\Documentos\GitHub\Dam2\Interfaze\2_Grafioak\dll\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\skabi\OneDrive\Documentos\GitHub\Dam2\Interfaze\2_Grafioak\dll\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\skabi\OneDrive\Documentos\GitHub\Dam2\Interfaze\2_Grafioak\dll\WindowsFormsControlLibrary1\WindowsFormsControlLibrary1\obj\Debug\WindowsFormsControlLibrary1.pdb

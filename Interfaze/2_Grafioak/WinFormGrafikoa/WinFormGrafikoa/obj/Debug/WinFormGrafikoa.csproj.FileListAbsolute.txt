@@ -1,0 +1,13 @@
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\bin\Debug\WinFormGrafikoa.exe.config
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\bin\Debug\WinFormGrafikoa.exe
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\bin\Debug\WinFormGrafikoa.pdb
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\bin\Debug\WindowsFormsControlLibrary1.dll
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\bin\Debug\WindowsFormsControlLibrary1.pdb
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\obj\Debug\WinFormGrafikoa.csproj.AssemblyReference.cache
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\obj\Debug\WinFormGrafikoa.Form1.resources
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\obj\Debug\WinFormGrafikoa.Properties.Resources.resources
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\obj\Debug\WinFormGrafikoa.csproj.GenerateResource.cache
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\obj\Debug\WinFormGrafikoa.csproj.CoreCompileInputs.cache
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\obj\Debug\WinFormG.78B43CB5.Up2Date
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\obj\Debug\WinFormGrafikoa.exe
+C:\Users\skabi\source\repos\WinFormGrafikoa\WinFormGrafikoa\obj\Debug\WinFormGrafikoa.pdb

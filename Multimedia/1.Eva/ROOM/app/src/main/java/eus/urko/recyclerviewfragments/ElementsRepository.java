@@ -14,20 +14,12 @@ public class ElementsRepository  {
     Executor executor = Executors.newSingleThreadExecutor();
     ElementsDAO elementsDAO;
 
-
     ElementsRepository(Application application){
         elementsDAO = ElementsDB.obtainInstance(application).getElementsDAO();
     }
-
-
-
-
-
     LiveData<List<Element>> get(){
         return elementsDAO.getElements();
     }
-
-
     void insert(Element element){
         executor.execute(new Runnable() {
             @Override
@@ -36,7 +28,6 @@ public class ElementsRepository  {
             }
         });
     }
-
     void delete(Element element) {
         executor.execute(new Runnable() {
             @Override
@@ -45,7 +36,6 @@ public class ElementsRepository  {
             }
         });
     }
-
     public void update(Element element, float rating) {
         executor.execute(new Runnable() {
             @Override
