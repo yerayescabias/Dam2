@@ -25,6 +25,9 @@ android {
             )
         }
     }
+    buildFeatures {
+        viewBinding = true
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -33,6 +36,11 @@ android {
 
 dependencies {
 
+    implementation (libs.retrofit)
+    implementation (libs.retrofit2.converter.gson)
+    implementation (libs.glide)
+    implementation(libs.navigation.fragment)
+    annotationProcessor (libs.compiler)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -40,4 +48,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }
