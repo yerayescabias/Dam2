@@ -18,7 +18,7 @@ public class ViewModel extends AndroidViewModel {
         super(application);
     }
     public void Text(){
-        Kanye.api.text.enqueue(new Callback<Kanye.Response>() {
+        Kanye.api.getQuote().enqueue(new Callback<Kanye.Response>() {
             @Override
             public void onResponse(@NonNull Call<Kanye.Response> call, @NonNull Response<Kanye.Response> response) {
                 responseMutableLiveData.postValue(response.body());
