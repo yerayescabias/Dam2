@@ -24,7 +24,7 @@ public class ClientPitagoras {
             DatagramSocket socket = new DatagramSocket();
 
             InetAddress serverAddress = InetAddress.getByName("localhost");
-            while (firstnumber == 0 || secondnumber == 0) {
+            while (firstnumber == 0 && secondnumber == 0) {
                 System.out.println("Enter the first number: ");
                 try {
                     firstnumber = sc.nextFloat();
