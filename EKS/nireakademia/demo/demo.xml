@@ -1,0 +1,19 @@
+<odoo>
+
+        <record model="nireakademia.kurtsoa" id="kurtsoa0">
+            <field name="name">Zerotik hasita</field>
+            <field name="deskribapena">kurtso honen deskribapenak
+
+Leroo ugari ditu
+            </field>
+        </record>
+        <record model="nireakademia.kurtsoa" id="kurtsoa1">
+            <field name="name">Kurtso erraza</field>
+            <!-- kurtso hone ez du deskribapenik-->
+        </record>
+        <record model="nireakademia.kurtsoa" id="kurtsoa2">
+            <field name="name">Kurtso aurreratua</field>
+            <field name="deskribapena">kurtso aurreratuaren deskribapena</field>
+        </record>
+
+</odoo>

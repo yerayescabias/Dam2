@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <odoo>
+
+        <!-- Existitzen den bistari irakaslea eremua gehitu -->
+        <record model="ir.ui.view" id="partner_irakaslea_form_view">
+            <field name="name">partner.irakaslea</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Saioak">
+                        <group>
+                            <field name="irakaslea"/>
+                            <field name="saio_idak"/>
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="contact_list_action">
+            <field name="name">Kontaktuak</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="configuration_menu" name="Konfigurazioa"
+                  parent="main_nireakademia_menu"/>
+        <menuitem id="contact_menu" name="Kontaktuak"
+                  parent="configuration_menu"
+                  action="contact_list_action"/>
+
+        <record model="ir.actions.act_window" id="kontaktu_kategoria_list_action">
+            <field name="name">Kontaktu etiketak</field>
+            <field name="res_model">res.partner.category</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="contact_cat_menu" name="Kontaktu etiketak"
+                  parent="configuration_menu"
+                  action="kontaktu_kategoria_list_action"/>
+
+        <record model="res.partner.category" id="monitorea1">
+            <field name="name">Monitorea / 1 maila</field>
+        </record>
+        <record model="res.partner.category" id="monitorea2">
+            <field name="name">Monitorea / 2 maila</field>
+        </record>
+
+</odoo>
+

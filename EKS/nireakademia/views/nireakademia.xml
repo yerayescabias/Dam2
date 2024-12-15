@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+        <record model="ir.ui.view" id="kurtsoa_form_view">
+            <field name="name">kurtsoa.form</field>
+            <field name="model">nireakademia.kurtsoa</field>
+            <field name="arch" type="xml">
+                <form string="Kurtsoaren formularioa">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="arduradun_id"/>
+                        </group>
+                        <notebook>
+                            <page string="Deskribapena">
+                                <field name="deskribapena"/>
+                            </page>
+                            <page string="Saioak">
+                                <field name="saio_idak">
+                                    <tree string="Erregistratutako saioak:">
+                                        <field name="name"/>
+                                        <field name="irakaslea_id"/>
+                                    </tree>
+                                </field>
+                            </page>
+                            <page string="Honi buruz">
+                                hau notebook erabiltzeko adibide bat da.
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Berridatzi kurtsoarentzat automatikoki sorturiko zuhaitz bista -->
+        <record model="ir.ui.view" id="kurtsoa_tree_view">
+            <field name="name">kurtsoa.tree</field>
+            <field name="model">nireakademia.kurtsoa</field>
+            <field name="arch" type="xml">
+                <tree string="Kurtso Zuhaitza">
+                    <field name="name"/>
+                    <field name="arduradun_id"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record model="ir.ui.view" id="kurtsoa_search_view">
+            <field name="name">kurtsoa.search</field>
+            <field name="model">nireakademia.kurtsoa</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="deskribapena"/>
+                </search>
+            </field>
+        </record>
+
+
+        <!-- window action -->
+        <!--
+            Ondorengo etiketak "window action" motako akzio bat definitzen du,
+            hau bista bat edo bista multzo bat irekitzen duen akzioa da
+        -->
+        <record model="ir.actions.act_window" id="kurtsoa_list_action">
+            <field name="name">Kurtsoak</field>
+            <field name="res_model">nireakademia.kurtsoa</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Sortu lehenengo kurtsoa
+                </p>
+            </field>
+        </record>
+
+        <!-- Goi mailako menua: no parent -->
+        <menuitem id="main_nireakademia_menu" name="Nire Akademia"/>
+        <!-- Ezkerreko menuan lehen maila bat beharrezkoa da
+              action= attribute erabili aurretik -->
+        <menuitem id="nireakademia_menu" name="Nire Akademia"
+                  parent="main_nireakademia_menu"/>
+        <!-- Ondorengo menuko itema bere aita nirekademia_menu
+             baino geroago eta bere akzioa
+             action kurtsoa_list_action baino geroago egon behar da-->
+        <menuitem id="kurtsoak_menu" name="Kurtsoak" parent="nireakademia_menu"
+                  action="kurtsoa_list_action"/>
+        <!-- id-aren kokapen guztia:
+             action="nireakademia.kurtsoa_list_action"
+             Ez da beharrezkoa modulo berdinean bagaude -->
+
+        <!-- saioaren formulario bista -->
+        <record model="ir.ui.view" id="saioa_form_view">
+            <field name="name">saioa.form</field>
+            <field name="model">nireakademia.saioa</field>
+            <field name="arch" type="xml">
+                <form string="Saio formularioa">
+                    <sheet>
+                       <group string="Orokorra">
+                                <field name="kurtsoa_id"/>
+                                <field name="name"/>
+                                <field name="irakaslea_id"/>
+                                <field name="aktibo"/>
+                       </group>
+                        <group>
+                            <field name="hasiera_data"/>
+                            <field name="iraupena"/>
+                            <field name="ikasleak"/>
+                            <field name="bertaratutako_ikasleak" widget="progressbar"/>
+
+                        </group>
+                        <label for="ikasle_idak"/>
+                        <field name="ikasle_idak"/>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Saioaren zuhaitz/lista bista-->
+        <record model="ir.ui.view" id="saioa_tree_view">
+            <field name="name">saioa.tree</field>
+            <field name="model">nireakademia.saioa</field>
+            <field name="arch" type="xml">
+                <tree string="Saioen ZUhaitza">
+                    <field name="name"/>
+                    <field name="kurtsoa_id"/>
+                    <field name="bertaratutako_ikasleak" widget="progressbar"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record model="ir.actions.act_window" id="saioa_list_action">
+            <field name="name">Saioak</field>
+            <field name="res_model">nireakademia.saioa</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="saioa_menu" name="Saioak"
+                  parent="nireakademia_menu"
+                  action="saioa_list_action"/>
+
+
+</odoo>
+
