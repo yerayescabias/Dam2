@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WineShop.NET 6.0.props" />
+</Project>

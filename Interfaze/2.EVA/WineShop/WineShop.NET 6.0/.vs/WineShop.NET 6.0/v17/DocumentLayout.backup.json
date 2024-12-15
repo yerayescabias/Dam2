@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|c:\\users\\administrador\\documents\\github\\dam2\\interfaze\\2.eva\\wineshop\\wineshop.net 6.0\\wineshop.net 6.0\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|solutionrelative:wineshop.net 6.0\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|c:\\users\\administrador\\documents\\github\\dam2\\interfaze\\2.eva\\wineshop\\wineshop.net 6.0\\wineshop.net 6.0\\models\\ardoaupeltegi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|solutionrelative:wineshop.net 6.0\\models\\ardoaupeltegi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|c:\\users\\administrador\\documents\\github\\dam2\\interfaze\\2.eva\\wineshop\\wineshop.net 6.0\\wineshop.net 6.0\\viewcomponents\\ardoakviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|solutionrelative:wineshop.net 6.0\\viewcomponents\\ardoakviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|c:\\users\\administrador\\documents\\github\\dam2\\interfaze\\2.eva\\wineshop\\wineshop.net 6.0\\wineshop.net 6.0\\viewcomponents\\iardoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|solutionrelative:wineshop.net 6.0\\viewcomponents\\iardoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|c:\\users\\administrador\\documents\\github\\dam2\\interfaze\\2.eva\\wineshop\\wineshop.net 6.0\\wineshop.net 6.0\\viewcomponents\\ardoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|solutionrelative:wineshop.net 6.0\\viewcomponents\\ardoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|c:\\users\\administrador\\documents\\github\\dam2\\interfaze\\2.eva\\wineshop\\wineshop.net 6.0\\wineshop.net 6.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|solutionrelative:wineshop.net 6.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|c:\\users\\administrador\\documents\\github\\dam2\\interfaze\\2.eva\\wineshop\\wineshop.net 6.0\\wineshop.net 6.0\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}|WineShop.NET 6.0\\WineShop.NET 6.0.csproj|solutionrelative:wineshop.net 6.0\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\Views\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WineShop.NET 6.0\\Views\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\Views\\_Layout.cshtml*",
+              "RelativeToolTip": "WineShop.NET 6.0\\Views\\_Layout.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T09:19:09.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\Program.cs",
+              "RelativeDocumentMoniker": "WineShop.NET 6.0\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\Program.cs",
+              "RelativeToolTip": "WineShop.NET 6.0\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:06:22.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArdoaService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\ViewComponents\\ArdoaService.cs",
+              "RelativeDocumentMoniker": "WineShop.NET 6.0\\ViewComponents\\ArdoaService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\ViewComponents\\ArdoaService.cs",
+              "RelativeToolTip": "WineShop.NET 6.0\\ViewComponents\\ArdoaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:04:16.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IArdoaService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\ViewComponents\\IArdoaService.cs",
+              "RelativeDocumentMoniker": "WineShop.NET 6.0\\ViewComponents\\IArdoaService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\ViewComponents\\IArdoaService.cs",
+              "RelativeToolTip": "WineShop.NET 6.0\\ViewComponents\\IArdoaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:02:53.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArdoakViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\ViewComponents\\ArdoakViewComponent.cs",
+              "RelativeDocumentMoniker": "WineShop.NET 6.0\\ViewComponents\\ArdoakViewComponent.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\ViewComponents\\ArdoakViewComponent.cs",
+              "RelativeToolTip": "WineShop.NET 6.0\\ViewComponents\\ArdoakViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:02:02.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArdoaUpeltegi.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\Models\\ArdoaUpeltegi.cs",
+              "RelativeDocumentMoniker": "WineShop.NET 6.0\\Models\\ArdoaUpeltegi.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\Models\\ArdoaUpeltegi.cs",
+              "RelativeToolTip": "WineShop.NET 6.0\\Models\\ArdoaUpeltegi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:00:14.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WineShop.NET 6.0\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\GitHub\\Dam2\\Interfaze\\2.EVA\\WineShop\\WineShop.NET 6.0\\WineShop.NET 6.0\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WineShop.NET 6.0\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-12T08:46:34.383Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -9,14 +9,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
 
 public class Kanye {
-    class Response{
-        List<Content>results;
-    }
-    class Content {
-         String quote;
+    class Response {
+        String quote;
     }
     public interface API{
-        @GET("/")
+        @GET("/text")
         Call<Response>getQuote();
     }
     public static API api = new Retrofit.Builder().baseUrl("https://api.kanye.rest").
