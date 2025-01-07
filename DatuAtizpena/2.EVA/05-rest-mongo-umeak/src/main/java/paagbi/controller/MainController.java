@@ -47,7 +47,7 @@ public class MainController {
 	}
 
 	@PutMapping(value = "/opariberria/{umeaId}")
-	public ResponseEntity<Umea> updateUmea(@Valid @RequestBody String opBerria, @PathVariable String umeaId) {
+	public ResponseEntity<Umea> updateUmea(@Valid @RequestParam String opBerria, @PathVariable String umeaId) {
 		try {
 			Umea umea = umeaRepository.findById(umeaId);
 			List<String> opariak = umea.getOpariak();

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+<record id="view_ariketa2_list" model="ir.ui.view">
+    <field name="name">ariketa3.list</field> <!-- list jarri dut gero tree erakoa izango delako -->
+    <field name="model">ariketa3</field> <!-- hemen gure modeloari deia egiten diogu -->
+    <field name="arch" type="xml">
+        <tree editable="bottom">  <!-- hemen "top" edo "bottom" izan daitezke. Kasu hontan azpiko lerroak editatu ditzazkegu-->
+            <field name="izena" />  <!-- kanpo hau gure modeloan definitu dugu-->
+            <field name="urtea" /> <!-- kanpo hau gure modeloan definitu dugu-->
+        </tree>
+    </field>
+</record>
+
+<record id="action_ariketa3" model="ir.actions.act_window">  
+    <field name="name">Izena Urtea</field> <!-- hau titulua izango da-->
+    <field name="res_model">ariketa3</field> 
+    <field name="view_mode">tree,form</field>
+</record>
+
+<!-- Hurrengoan esaten diot non joango den menua eta azpi menua (kasu hontan ez dago azpimenurik) -->
+<menuitem id="menu_ariketa3_root" name="Azken Ariketa" sequence="10" action="action_ariketa3" />
+</odoo>

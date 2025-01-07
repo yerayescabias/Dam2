@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WineShop.NET_6._0-d0254f48-86a7-48e0-ab80-8d1fc5a9e13b")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WineShop.NET_6._0-27267cbd-9b2e-4b2a-94e4-484c61fc8a13")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WineShop.NET 6.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffe51e2f4a1455cab0ceae574c1c36d20fba7039")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7a4b923de1d0c088ccf716a50ca4727aa8ebd3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WineShop.NET 6.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WineShop.NET 6.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

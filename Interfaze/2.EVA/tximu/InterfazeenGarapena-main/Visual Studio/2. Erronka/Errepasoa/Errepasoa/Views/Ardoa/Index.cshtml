@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Errepasoa.Models.Ardoa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Izena)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salneurria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Alkohola)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Edukia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Urtea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Irudia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deskribapena)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Eskaintza)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deskontua)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpeltegiaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MotaId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Izena)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salneurria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Alkohola)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Edukia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Urtea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Irudia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deskribapena)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Eskaintza)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deskontua)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpeltegiaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MotaId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

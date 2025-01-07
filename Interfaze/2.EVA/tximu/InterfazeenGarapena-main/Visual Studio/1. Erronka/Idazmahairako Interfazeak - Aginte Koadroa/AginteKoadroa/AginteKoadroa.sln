@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AginteKoadroa", "AginteKoadroa.csproj", "{3E6EBC41-7DD5-43A5-AFD1-9917B49E209B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AginteKoadroaSetup", "..\AginteKoadroaSetup\AginteKoadroaSetup.vdproj", "{A604B944-A5F2-4AD1-A246-F134916E4A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E6EBC41-7DD5-43A5-AFD1-9917B49E209B}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6EBC41-7DD5-43A5-AFD1-9917B49E209B}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{3E6EBC41-7DD5-43A5-AFD1-9917B49E209B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6EBC41-7DD5-43A5-AFD1-9917B49E209B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A604B944-A5F2-4AD1-A246-F134916E4A4D}.Debug|Any CPU.ActiveCfg = Debug
+		{A604B944-A5F2-4AD1-A246-F134916E4A4D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0218AECF-0A7E-48A8-BADC-1C031CC87955}
+	EndGlobalSection
+EndGlobal

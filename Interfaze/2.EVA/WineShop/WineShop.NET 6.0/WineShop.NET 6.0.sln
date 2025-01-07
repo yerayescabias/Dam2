@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineShop.NET 6.0", "WineShop.NET 6.0\WineShop.NET 6.0.csproj", "{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineShop", "WineShop.NET 6.0\WineShop.csproj", "{42909590-1786-4F10-8B37-720DA9AF726D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTAPI", "RESTAPI\RESTAPI.csproj", "{8FC7B543-CF4C-47B3-8203-5EE1E8DC8CFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11A2B0DF-714F-41D6-804C-36FECDE5F7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42909590-1786-4F10-8B37-720DA9AF726D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42909590-1786-4F10-8B37-720DA9AF726D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42909590-1786-4F10-8B37-720DA9AF726D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42909590-1786-4F10-8B37-720DA9AF726D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC7B543-CF4C-47B3-8203-5EE1E8DC8CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC7B543-CF4C-47B3-8203-5EE1E8DC8CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC7B543-CF4C-47B3-8203-5EE1E8DC8CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC7B543-CF4C-47B3-8203-5EE1E8DC8CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

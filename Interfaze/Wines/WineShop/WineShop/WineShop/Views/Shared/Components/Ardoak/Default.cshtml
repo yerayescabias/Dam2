@@ -1,0 +1,35 @@
+﻿@model IEnumerable<WineShop.Models.ArdoaUpeltegi>
+@if (Model != null) // poner este if else, es buena practica para que nos diga que n hay datos.
+{
+    <ul class="dropdown-menu">
+        <li>
+            <div class="container padinaMenu">
+                <div class="col-md-4 nireMenua">
+                    <h4 class="borgona">Aukeratu upeltegia:</h4>
+                    @{
+                        var izena = "";
+                        foreach (var item in Model)
+                        {
+                            if (item.UpeltegiIzena != izena)
+                            {
+                                <a href="#">@Html.DisplayFor(modelItem => item.UpeltegiIzena)</a>
+
+                                <br />
+                                izena = item.UpeltegiIzena;
+                            }
+                        }
+                    }
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="~/images/wine-white.jpg" />
+                </div>
+            </div>
+        </li>
+    </ul>
+}
+
+else
+{
+    <li>No hay dats disponibles</li>
+}
+

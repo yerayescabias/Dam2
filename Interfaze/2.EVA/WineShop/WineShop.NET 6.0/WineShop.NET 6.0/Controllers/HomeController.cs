@@ -1,23 +1,25 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WineShop.NET_6._0.Models;
+using WineShop.NET_6._0.Service;
 
 namespace WineShop.NET_6._0.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IArdoaService _ardoaService;
+        public HomeController(ILogger<HomeController> logger, IArdoaService ardoaService)
         {
             _logger = logger;
+            _ardoaService = ardoaService;
         }
-
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<Ardoa> ardoaList = new List<Ardoa>();
+            ardoaList = await _ardoaService.GetArdoak();
+            return View(ardoaList.Where(a => a.Eskaintza == true));
         }
-
         public IActionResult Privacy()
         {
             return View();

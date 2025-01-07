@@ -1,0 +1,30 @@
+<odoo>
+    <!-- kargatu info -->
+    <record id="kargatu" model="ir.ui.view">
+        <field name="name">bigarrengoariketakargatu</field>
+        <field name="model">bigarrenariketa</field>
+        <field name="arch" type="xml">
+            <tree>
+                <!-- hau ikusiko da -->
+                <field name="izena"/> <!-- guk definituak -->
+                <field name="telefonoa"/> <!-- guk definituak -->
+                <field name="emaila"/> <!-- guk definituak -->
+            </tree>
+        </field>
+    </record>
+
+    <!-- akzioa ikusteko -->
+    <record id="action_erabiltzaileak_ikusi2" model="ir.actions.act_window">
+        <field name="name">Erabiltzaileak</field>
+        <field name="res_model">bigarrenariketa</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="kargatu" />
+    </record>
+
+    <!-- Root Menua V2-->
+    <menuitem id="menu_erabiltzaileak2" name="Bigarrena Ikusi v2" sequence="2" />
+
+    <!-- azpimenua Ikusi -->
+    <menuitem id="menu_erabiltzaileak_ikusi2" name="Ikusi v2" parent="menu_erabiltzaileak2" sequence="1" action="action_erabiltzaileak_ikusi2" />
+</odoo>
+

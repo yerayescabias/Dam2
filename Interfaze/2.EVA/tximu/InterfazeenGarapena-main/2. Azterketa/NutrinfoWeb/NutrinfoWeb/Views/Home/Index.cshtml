@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="row  d-flex align-items-center justify-content-center">
+        <div class="col-4 align-items-center justify-content-center"><hr></div>
+        <div class="col-4 align-items-center justify-content-center">
+            <img class="img-fluid irudia" src="images/logo.png" />
+        </div>
+        <div class="col-4 align-items-center justify-content-"><hr></div>
+    </div>
+</div>
+<div class="row gx-5">
+    <h3 class="text-success"> Elikagaiak</h3>
+    <hr />
+    @model IEnumerable<NutrinfoWeb.Models.Elikagaia>
+    @{
+        foreach (var item in Model)
+        {
+        <div class="col-4">
+            <div class="row">
+                <img class="img-fluid irudia" src="images/@item.Irudia" />
+            </div>
+            <div class="row">
+                @item.Deskripzioa
+            </div>
+            <div class="row">
+                <a href="#" class="btn btn-success">Informazio gehiago</a>
+            </div>
+        </div>
+    }}
+    </div>

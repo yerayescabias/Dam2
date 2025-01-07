@@ -1,0 +1,23 @@
+The code requires at least Java 8 to build.
+
+For setting up your Maven installation to enable the use of the profile, please see:
+
+https://commons.apache.org/commons-parent-pom.html#Testing_with_different_Java_versions
+
+Building the site will also generally require at least Java 8 to run Maven.
+
+To build the site from scratch, you can use:
+
+$ mvn clean site
+
+To install the component locally:
+
+$ mvn install
+
+To deploy:
+
+$ mvn deploy -Prelease -Duser.name=*ASF ID* [-Ptest-deploy]
+
+The test-deploy profile deploys to target/deploy rather than Nexus
+
+[1] http://maven.apache.org/docs/history.html

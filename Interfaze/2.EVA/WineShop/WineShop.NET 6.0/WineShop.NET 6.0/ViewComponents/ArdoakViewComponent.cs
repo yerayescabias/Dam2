@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-
-namespace WineShop.NET_6._0.ViewComponents
+﻿namespace WineShop.NET_6._0.ViewComponents
 {
+    using Microsoft.AspNetCore.Mvc;
+    using WineShop.NET_6._0.Service;
+
     public class ArdoakViewComponent : ViewComponent
     {
         private readonly IArdoaService _ardoaService;
