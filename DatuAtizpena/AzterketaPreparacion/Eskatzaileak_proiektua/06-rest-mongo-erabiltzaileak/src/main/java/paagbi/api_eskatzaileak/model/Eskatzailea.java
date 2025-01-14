@@ -5,15 +5,14 @@ import java.util.List;
 import org.bson.types.ObjectId;
 
 public class Eskatzailea {
-    private ObjectId id;
     private String izena;
     private List<Oparia> opariak;
 
     public Eskatzailea() {
     }
 
-    public Eskatzailea(ObjectId id, String izena, List<Oparia> opariak) {
-        this.id = id;
+    public Eskatzailea( String izena, List<Oparia> opariak) {
+        
         this.izena = izena;
         this.opariak = opariak;
     }
@@ -44,7 +43,7 @@ public class Eskatzailea {
 
     @Override
     public String toString() {
-        return "Eskatzailea [id=" + id + ", izena=" + izena + ", opariak=" + opariak + "]";
+        return "Eskatzailea [izena=" + izena + ", opariak=" + opariak + "]";
     }
 
        

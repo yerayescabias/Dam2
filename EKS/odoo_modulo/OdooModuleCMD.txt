@@ -1,0 +1,14 @@
+'C:\Program Files\Odoo 17.0.20240930\python\python.exe' 'C:\Program Files\Odoo 17.0.20240930\server\odoo-bin' scaffold 'moduloTest' .\odoo\addons\
+
+CREATE TABLE user_test (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    apellido VARCHAR(50) NOT NULL,
+    telefono VARCHAR(15),
+    correo VARCHAR(100) UNIQUE NOT NULL
+);
+
+INSERT INTO user_test (nombre, apellido, telefono, correo) 
+VALUES 
+('Juan', 'Pérez', '1234567890', 'juan.perez@test.com'),
+('María', 'Gómez', '0987654321', 'maria.gomez@test.com');

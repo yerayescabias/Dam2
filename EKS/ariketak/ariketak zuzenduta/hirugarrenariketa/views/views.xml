@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
+<data>
 <record id="view_ariketa2_list" model="ir.ui.view">
     <field name="name">ariketa3.list</field> <!-- list jarri dut gero tree erakoa izango delako -->
     <field name="model">ariketa3</field> <!-- hemen gure modeloari deia egiten diogu -->
@@ -19,4 +20,5 @@
 
 <!-- Hurrengoan esaten diot non joango den menua eta azpi menua (kasu hontan ez dago azpimenurik) -->
 <menuitem id="menu_ariketa3_root" name="Azken Ariketa" sequence="10" action="action_ariketa3" />
+</data>
 </odoo>

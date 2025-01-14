@@ -10,9 +10,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.model.Filters;
+import com.mongodb.client.model.Projections;
 
 import jakarta.annotation.PostConstruct;
 import pruebita.v1.model.Eskatzaileak;
+import pruebita.v1.model.Opariak;
+
 import static com.mongodb.client.model.Filters.eq;
 
 @Repository
@@ -41,7 +45,16 @@ public class EskatzaileakRepository implements IEskatzaileak {
 
     @Override
     public long delete(String izena) {
-        return mongoCollection.deleteMany(eq("izena",izena)).getDeletedCount();
+        return mongoCollection.deleteMany(eq("izena", izena)).getDeletedCount();
     }
+
+    @Override
+    public List<Eskatzaileak> findMeltxor() {
+
+        return mongoCollection.find(eq("opariak.nori.izena: Meltxor")).into(new ArrayList<>());
+
+    }
+
+    
 
 }

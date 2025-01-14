@@ -33,6 +33,10 @@ public class Controller {
     public @ResponseBody List<Eskatzaileak> getAllEskatzaileak() {
         return eskatzaileak.findAll();
     }
+    @GetMapping("/meltxor")
+    public @ResponseBody List<Eskatzaileak> getMeltxor() {
+        return eskatzaileak.findAll();
+    }
 
     @PostMapping("/eskatzaileberria")
     public @ResponseBody Eskatzaileak eskatzaileberria(@RequestParam String izena, @RequestParam String zer,
@@ -46,6 +50,6 @@ public class Controller {
         return eskatzailea;
 
     }
-    @DeleteMapping("/delete/{izena}")
-    public @ResponseBody long 
+    
+    
 }

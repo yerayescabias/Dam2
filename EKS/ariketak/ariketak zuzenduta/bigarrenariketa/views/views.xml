@@ -1,4 +1,5 @@
 <odoo>
+<data>
     <!-- kargatu info -->
     <record id="kargatu" model="ir.ui.view">
         <field name="name">bigarrengoariketakargatu</field>
@@ -26,5 +27,6 @@
 
     <!-- azpimenua Ikusi -->
     <menuitem id="menu_erabiltzaileak_ikusi2" name="Ikusi v2" parent="menu_erabiltzaileak2" sequence="1" action="action_erabiltzaileak_ikusi2" />
+    </data>
 </odoo>
 

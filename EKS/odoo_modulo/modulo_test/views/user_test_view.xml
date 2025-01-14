@@ -1,0 +1,30 @@
+<odoo>
+    <!-- Vista árbol para visualizar los usuarios -->
+    <record id="view_user_test_tree" model="ir.ui.view">
+        <field name="name">user.test.tree</field>
+        <field name="model">user.test</field>
+        <field name="arch" type="xml">
+            <tree>
+                <!-- Definimos los campos que queremos mostrar -->
+                <field name="nombre"/>
+                <field name="apellido"/>
+                <field name="telefono"/>
+                <field name="correo"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Acción para ver los usuarios -->
+    <record id="action_user_test" model="ir.actions.act_window">
+        <field name="name">Usuarios de Prueba</field>
+        <field name="res_model">user.test</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_user_test_tree"/>
+    </record>
+
+    <!-- Menú raíz -->
+    <menuitem id="menu_user_test_root" name="Usuarios de Test" sequence="1"/>
+
+    <!-- Submenú para acceder a la vista -->
+    <menuitem id="menu_user_test" name="Ver Usuarios" parent="menu_user_test_root" sequence="1" action="action_user_test"/>
+</odoo>

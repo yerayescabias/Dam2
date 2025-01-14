@@ -25,14 +25,14 @@ import static com.mongodb.client.model.Filters.eq;
 
 @Repository
 public class EskatzaileaAccess implements EskatzaileaRepository {
-    @Autowired
-    private MongoClient client;
-    private MongoCollection<Eskatzailea> eskatzaileaCollection;
+        @Autowired
+        private MongoClient client;
+        private MongoCollection<Eskatzailea> eskatzaileaCollection;
 
-    @PostConstruct
-    private void init() {
-        eskatzaileaCollection = client.getDatabase("Gabonak").getCollection("eskatzaileak", Eskatzailea.class);
-    }
+        @PostConstruct
+        private void init() {
+            eskatzaileaCollection = client.getDatabase("Gabonak").getCollection("eskatzaileak", Eskatzailea.class);
+        }
 
     @Override
     public List<Eskatzailea> getAll() {
